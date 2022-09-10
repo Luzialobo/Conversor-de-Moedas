@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor De Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h1 class="page-title">Conversor De Moedas </h1>
+<p class="page-subtitle">
+faça a conversão de kwanza ou dolar
+</p>
+<img src="./Imagens/conver(1).png" class="page-logo" alt=""> <br><br>
+<label for="moeda">Insira 0  valor</label>
+<br>
+<input type="number" id="valor" size="2" />
+<br><br>
+<button type="submit" onclick="converterparakwanza()"> Converter para kwanzas</button>
+<br>
+<h2 id="valorConvertido"> </h2>
+<button type="submit" onclick="converterparadolar()"> Converter para Dolar</button>
+<h2 id="valorConvertido"></h2>
+<br>
+<button type="submit" onclick="converterparaeuro()"> Converter para Euro</button>
+<h2 id="valorConvertido"></h2>
+    </div>
+    <script src="conver.js">
+     </script>
+</body>
+</html>
